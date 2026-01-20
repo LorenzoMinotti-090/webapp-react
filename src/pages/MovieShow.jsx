@@ -25,7 +25,6 @@ export default function MovieShow() {
     return (
         <main className="container py-4">
             <h1>{movie.title}</h1>
-            <p>DEBUG image: {String(movie.image)}</p>
             {movie.image && (
                 <img
                     src={`/movies_cover/${movie.image}`}
